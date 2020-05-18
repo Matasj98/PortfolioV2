@@ -3,25 +3,23 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import {
-  MuiThemeProvider,
-  createMuiTheme,
-  responsiveFontSizes,
+	MuiThemeProvider,
+	createMuiTheme,
+	responsiveFontSizes,
 } from "@material-ui/core";
 import { BrowserRouter } from "react-router-dom";
 
 const theme = createMuiTheme({
-  typography: {
-    fontFamily: '"Sen", sans-serif',
-  },
+	typography: {
+		fontFamily: '"Sen", sans-serif',
+	},
 });
 
 ReactDOM.render(
-  <BrowserRouter>
-    <MuiThemeProvider theme={responsiveFontSizes(theme)}>
-      {/* <React.StrictMode> */}
-      <App />
-      {/* </React.StrictMode> */}
-    </MuiThemeProvider>
-  </BrowserRouter>,
-  document.getElementById("root")
+	<BrowserRouter>
+		<MuiThemeProvider theme={responsiveFontSizes(theme)}>
+			<App />
+		</MuiThemeProvider>
+	</BrowserRouter>,
+	document.getElementById("root")
 );

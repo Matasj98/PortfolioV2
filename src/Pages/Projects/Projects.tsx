@@ -122,7 +122,6 @@ const Projects: React.FC = () => {
                     </Card>
                 ))}
             </Box>
-            {console.log(loadedImages)}
         </Box>
     );
 };

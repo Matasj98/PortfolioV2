@@ -4,36 +4,22 @@ import Particles from "react-particles-js";
 const ParticlesStyled = () => {
     return (
         <Particles
-            style={{ position: "absolute" }}
+            style={{ position: "fixed", top: "0", bottom: "0", right: "0", left: "0" }}
             params={{
                 particles: {
                     number: {
-                        value: 200,
-                        density: {
-                            enable: true,
-                            value_area: 1500,
-                        },
+                        value: 300,
                     },
                     line_linked: {
-                        enable: true,
-                        opacity: 0.05,
+                        enable: false,
                     },
                     move: {
-                        // direction: "right",
-                        speed: 2,
+                        speed: 4,
                     },
                     size: {
                         value: 1,
                     },
-                    opacity: {
-                        anim: {
-                            enable: true,
-                            speed: 1,
-                            opacity_min: 0.05,
-                        },
-                    },
                 },
-                // retina_detect: true,
             }}
         />
     );

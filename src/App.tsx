@@ -14,6 +14,7 @@ const useStyles = makeStyles({
     root: {
         background: `linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9) ), url(${landingImage})`,
         backgroundSize: "cover",
+        backgroundRepeat: 'no-repeat',
         backgroundPosition: "center",
         color: "white",
     },

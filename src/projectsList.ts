@@ -16,7 +16,7 @@ export const projects: {
     },
     {
         name: "GifBf",
-        img: require("./Assets/projectPhotos/gifbf.png"),
+        img: require("./Assets/projectPhotos/gifbfwebsite.png"),
         technology: " React.js, Redux, Material-UI, Giphy API",
         description:
             "GIF search application. It uses Giphy API to search for GIFs by entered keyword or selected category.",
@@ -60,7 +60,7 @@ export const projects: {
     },
     {
         name: "Black Jack game",
-        img: require("./Assets/projectPhotos/blackjack.png"),
+        img: require("./Assets/projectPhotos/blackjackgame.png"),
         technology: " React.js, Redux",
         description: "Black Jack game",
         demo: "https://matasj98.github.io/blackJack/",

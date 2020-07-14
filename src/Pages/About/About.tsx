@@ -97,15 +97,14 @@ const About: React.FC = () => {
                     <ul className={classes.ulList}>
                         <Typography variant='body2'>
                             <li className={classes.listText}>
-                                NFQ Academy - one of the most popular IT academies in Lithuania. I was attending as a
-                                Front - End Developer on this academy for 3 months with focus on React.js and it's
-                                related technologies/frameworks. During this period I gained knowledge about Front/Back
-                                - End developing process. I worked on a project with my collegues - they were Back - End
-                                Developers and then there was me who was responsible for Front - End alone. It was a
-                                rough 3 month learning and developing journey, but I learned to work with a team, manage
-                                develop a project dealing with stress, because I had other responsibilities besides
-                                academy and of course most importantly I improved my knowledge working with famous
-                                JavaScript framework - React.js.
+                                NFQ Academy - one of the most popular IT academies in Lithuania. I was attending as a Front - End
+                                Developer on this academy for 3 months with focus on React.js and it's related
+                                technologies/frameworks. During this period I gained knowledge about Front/Back - End developing
+                                process. I worked on a project with my collegues - they were Back - End Developers and then there
+                                was me who was responsible for Front - End alone. It was a rough 3 month learning and developing
+                                journey, but I learned to work with a team, manage develop a project dealing with stress, because
+                                I had other responsibilities besides academy and of course most importantly I improved my
+                                knowledge working with famous JavaScript framework - React.js.
                             </li>
                         </Typography>
                     </ul>
@@ -115,24 +114,24 @@ const About: React.FC = () => {
                     <ul className={classes.ulList}>
                         <Typography variant='body2'>
                             <li className={classes.listText}>
-                                I'm always excited to make something new - especially create a website. It's been a long
-                                time since I decided to become a programmer and It's over than a year since I decided to
-                                become a Front - End Developer. Why Front - End you may ask? It's not a difficult
-                                question and there is a simple answer - I just love it, to create something new, solve
-                                problems and most importantly see the results in the web browser as a beautiful website.
+                                I'm always excited to make something new - especially create a website. It's been a long time
+                                since I decided to become a programmer and It's over than a year since I decided to become a Front
+                                - End Developer. Why Front - End you may ask? It's not a difficult question and there is a simple
+                                answer - I just love it, to create something new, solve problems and most importantly see the
+                                results in the web browser as a beautiful website.
                             </li>
                             <li className={classes.listText}>
-                                It's easy to tell people what you can do, but it's just a words, It's harder to actually
-                                do it. Im trying to improve my knowledge and skills simply just by creating something
-                                and when I start something else I do it better, because I learn from my mistakes and
-                                gain knowledge by searching for information. Check out my projects to see what I can do
-                                now and if interested contact me to see what I can do in the future.
+                                It's easy to tell people what you can do, but it's just a words, It's harder to actually do it. Im
+                                trying to improve my knowledge and skills simply just by creating something and when I start
+                                something else I do it better, because I learn from my mistakes and gain knowledge by searching
+                                for information. Check out my projects to see what I can do now and if interested contact me to
+                                see what I can do in the future.
                             </li>
                             <li className={classes.listText}>
                                 People can't be perfect in all areas covering programming, but they can master one thing
-                                perfectly. That's why I'm focusing on Front - End Development, because there is so much
-                                to learn for me. Don't get me wrong I have some experience in Back - End Development,
-                                but It's more like doing some simple tasks. But still - that's something!.
+                                perfectly. That's why I'm focusing on Front - End Development, because there is so much to learn
+                                for me. Don't get me wrong I have some experience in Back - End Development, but It's more like
+                                doing some simple tasks. But still - that's something!.
                             </li>
                         </Typography>
                     </ul>
@@ -143,10 +142,13 @@ const About: React.FC = () => {
     const SkillSection = () => {
         return (
             <Box>
+                <Typography style={{ margin: "15px 0" }} align='center' variant='h4'>
+                    Skills
+                </Typography>
                 {skillIcons.map((item, index) => {
                     return (
                         <Box key={index}>
-                            <Typography variant='h4' align='center'>
+                            <Typography variant='h5' align='center'>
                                 {item.name}
                             </Typography>
                             <Box height='100%' display='flex' flexWrap='wrap' justifyContent='center'>
@@ -160,8 +162,7 @@ const About: React.FC = () => {
                                                         width='80px'
                                                         display='flex'
                                                         justifyContent='center'
-                                                        alignItems='center'
-                                                    >
+                                                        alignItems='center'>
                                                         <img
                                                             className={classes.skillImage}
                                                             height='100%'
